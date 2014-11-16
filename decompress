@@ -1,3 +1,4 @@
+
 #!/bin/bash
 FILE1=$(file -b $1)
 
