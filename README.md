@@ -6,3 +6,5 @@ Supported compressed files
 - Tar
 - Tar.bz2
 - Tar.gz
+- Rar
+- 7z
