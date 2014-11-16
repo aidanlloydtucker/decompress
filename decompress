@@ -20,8 +20,13 @@ else
                 echo "Tar.bz2"
                 tar -jxvf $1
 
-                else
-                    echo "WTF"
+            else
+                if [[ $FILE1 == *7-zip* ]]; then
+	            7z e $1
+
+                    else
+                        echo "You are trying to decompress an unsupported file"
+                fi
             fi
         fi
     fi
