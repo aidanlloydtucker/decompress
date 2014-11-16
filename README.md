@@ -1,4 +1,4 @@
-decompress
+Decompress
 ==========
 This is a tool that allows you to have one decompress command for all of your compressed files.
 Supported compressed files
