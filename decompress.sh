@@ -1,5 +1,6 @@
 #!/bin/bash
 FILE1=$(file -b $1)
+
 if [[ $FILE1 == *Zip* ]]; then
     echo "Zip"
     unzip $1
