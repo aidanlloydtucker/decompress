@@ -1,5 +1,3 @@
-
-
 #!/bin/bash
 
 sudo apt-get install unzip tar p7zip p7zip-full
@@ -10,6 +8,7 @@ sudo cp dcmp /usr/bin
 #if [[ $unamestr == *Linux* ]]; then
     #if [[ $opsys == *Debian* ]]; then
         #sudo cp decompress /usr/bin
+
         #sudo cp dcmp /usr/bin
         #sudo apt-get install unzip tar p7zip p7zip-full
 	#echo "Deb"
