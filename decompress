@@ -16,6 +16,9 @@ elif [[ $FILE1 == *bzip2* ]]; then
 elif [[ $FILE1 == *7-zip* ]]; then
     7z e $1
 
+elif [[ $FILE1 == *XZ* ]]; then
+    xz -d $1
+
 else
     echo "You are trying to decompress an unsupported file"
 fi
